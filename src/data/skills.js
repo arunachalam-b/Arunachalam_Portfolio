@@ -1,43 +1,108 @@
 const skills = [
   {
+    title: "React JS",
+    level: "⭐⭐⭐",
+    icon: "/logo/reactjs.webp",
+  },
+  {
+    title: "Next JS",
+    level: "⭐⭐⭐",
+    icon: "/logo/nextjs.webp",
+  },
+  {
+    title: "React Native",
+    level: "⭐⭐⭐",
+    icon: "/logo/reactjs.webp",
+  },
+  {
+    title: "Node JS",
+    level: "⭐⭐⭐",
+    icon: "/logo/nodejs.webp",
+  },
+  {
     title: "Flutter",
     level: "⭐⭐⭐",
     icon: "/logo/flutter.webp",
   },
   {
-    title: "React.js",
+    title: "Electron JS",
     level: "⭐⭐⭐",
-    icon: "/logo/reactjs.webp",
+    icon: "/logo/Electron_JS.png",
   },
   {
-    title: "Next.js",
+    title: "GraphQL",
     level: "⭐⭐⭐",
-    icon: "/logo/nextjs.webp",
+    icon: "/logo/GraphQL.png",
   },
   {
-    title: "Node.js",
+    title: "MySQL",
     level: "⭐⭐⭐",
-    icon: "/logo/nodejs.webp",
+    icon: "/logo/mysql.webp",
   },
   {
-    title: "HTML",
-    level: "⭐⭐",
-    icon: "/logo/html.webp",
+    title: "AWS",
+    level: "⭐⭐⭐",
+    icon: "/logo/AWS.png",
   },
   {
-    title: "CSS",
-    level: "⭐⭐",
-    icon: "/logo/css.webp",
+    title: "Lerna",
+    level: "⭐⭐⭐",
+    icon: "/logo/Lerna.png",
   },
   {
-    title: "MongoDB",
-    level: "⭐⭐",
-    icon: "/logo/mongodb.webp",
+    title: "Socket IO",
+    level: "⭐⭐⭐",
+    icon: "/logo/Socket_IO.png",
   },
   {
-    title: "SASS",
+    title: "Cypress",
+    level: "⭐⭐⭐",
+    icon: "/logo/Cypress.png",
+  },
+  {
+    title: "Java",
+    level: "⭐⭐⭐",
+    icon: "/logo/Java.png",
+  },
+  {
+    title: "Jest",
+    level: "⭐⭐⭐",
+    icon: "/logo/Jest.webp",
+  },
+  {
+    title: "Python",
     level: "⭐⭐",
-    icon: "/logo/sass.webp",
+    icon: "/logo/Python.png",
+  },
+  {
+    title: "PHP",
+    level: "⭐⭐",
+    icon: "/logo/Php.png",
+  },
+  {
+    title: "Strapi",
+    level: "⭐⭐",
+    icon: "/logo/Strapi.png",
+  },
+  {
+    title: "Laravel",
+    level: "⭐⭐",
+    icon: "/logo/Laravel.png",
+  },
+  {
+    title: "Cassandra",
+    level: "⭐⭐",
+    icon: "/logo/Cassandra.png",
+  },
+  {
+    title: "Firebase",
+    level: "⭐⭐",
+    icon: "/logo/Firebase.png",
+  },
+  {
+    title: "Bamboo",
+    level: "⭐⭐",
+    icon: "/logo/Bamboo.png",
   },
 ];
 
