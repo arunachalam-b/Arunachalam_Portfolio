@@ -3,25 +3,25 @@ const services = [
     title: "Mobile App Development",
     image: "/icons/mobile-dev.webp",
     description:
-      "I specialize in creating captivating mobile applications that engage your audience. From concept to deployment, I develop native and cross-platform apps for iOS and Android. With cutting-edge technologies, I ensure seamless performance, intuitive interfaces, and robust functionality that aligns perfectly with your business goals.",
+      "Specializing in React Native and Flutter, I excel in crafting high-performance mobile apps with seamless interfaces. My focus is on delivering robust functionality that aligns precisely with clients' business objectives. With expertise in ensuring intuitive user experiences, I bring a commitment to excellence in every project. ",
   },
   {
     title: "Web Development",
     image: "/icons/web-dev.webp",
     description:
-      "I deliver visually stunning and user-friendly websites to help you establish a strong online presence. Whether it's a simple informational site or a complex e-commerce platform, I provide tailored web development solutions. Using the latest frameworks and technologies, I create responsive, SEO-friendly websites that offer a seamless browsing experience on all devices.",
+      "I specialize in creating visually stunning, user-friendly websites that bolster online presence. From straightforward informational sites to intricate e-commerce platforms, I offer customized web development solutions. Leveraging the latest frameworks and technologies, I design responsive, SEO-friendly websites, ensuring a seamless browsing experience across all devices. My commitment lies in delivering web solutions that align with clients' unique needs and goals. ",
   },
   {
     title: "Backend Development",
     image: "/icons/backend-dev.webp",
     description:
-      "I enhance your digital applications with a robust and scalable backend infrastructure. With expertise in backend development, I create efficient database structures, develop APIs, and configure servers to ensure optimal performance, security, and scalability. My solutions empower your applications to seamlessly handle high traffic and complex data management.",
+      "Specializing in backend development, I strengthen digital applications with a robust and scalable infrastructure. My expertise includes crafting efficient database structures, developing APIs, and configuring servers for optimal performance and security. I empower applications to seamlessly manage high traffic and complex data, ensuring they operate with efficiency and scalability. ",
   },
   {
-    title: "Product Strategy",
+    title: "DevOps",
     image: "/icons/backend-dev.webp",
     description:
-      "I collaborate with you to define clear goals, target audiences, and a roadmap for success. My expertise in product ideation and market analysis ensures that your product not only meets user needs but also aligns with your business strategy for long-term growth and full potential of your digital products with effective product strategy.",
+      "With a robust background in DevOps engineering, I bring extensive experience in configuring CI/CD pipelines. I have successfully implemented these pipelines for enterprise-level projects, utilizing the power of AWS Cloud and Bamboo. My expertise lies in streamlining development workflows, enhancing deployment processes, and ensuring seamless integration for efficient and scalable software delivery. ",
   },
 ];
 
