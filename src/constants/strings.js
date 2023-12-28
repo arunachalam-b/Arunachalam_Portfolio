@@ -19,7 +19,7 @@ class Strings {
   static twitterLink = "https://www.twitter.com/nixrajput07";
   static twitterUsername = "nixrajput07";
 
-  static fullName = "Nikhil Rajput";
+  static fullName = "Arunachalam B";
   static shortName = "nixrajput";
 }
 

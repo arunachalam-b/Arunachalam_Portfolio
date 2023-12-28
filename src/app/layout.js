@@ -10,9 +10,9 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Nikhil Rajput",
+  title: "Arunachalam B",
   description:
-    "Nikhil Rajput is a proficient Full Stack Developer, skilled in seamlessly integrating front-end and back-end technologies while excelling in design.",
+    "Arunachalam B is a proficient Full Stack Developer, skilled in seamlessly integrating front-end and back-end technologies while excelling in design.",
 };
 
 const RootLayout = ({ children }) => {
