@@ -1,23 +1,23 @@
 class Strings {
   static telegram = "Telegram";
-  static telegramLink = "https://telegram.me/nixrajput";
-  static telegramUsername = "nixrajput";
+  static telegramLink = "https://telegram.me/arunachalamb31";
+  static telegramUsername = "arunachalamb31";
 
   static github = "GitHub";
-  static githubLink = "https://www.github.com/nixrajput";
-  static githubUsername = "nixrajput";
+  static githubLink = "https://github.com/b-arunachalam31";
+  static githubUsername = "b-arunachalam31";
 
   static linkedIn = "LinkedIn";
-  static linkedInLink = "https://www.linkedin.com/in/nixrajput";
-  static linkedInUsername = "nixrajput";
+  static linkedInLink = "https://www.linkedin.com/in/arunachalamb/";
+  static linkedInUsername = "arunachalamb";
 
   static instagram = "Instagram";
-  static instagramLink = "https://www.instagram.com/nixrajput";
-  static instagramUsername = "nixrajput";
+  static instagramLink = "https://www.instagram.com/arunachalamb31/";
+  static instagramUsername = "arunachalamb31";
 
   static twitter = "Twitter";
-  static twitterLink = "https://www.twitter.com/nixrajput07";
-  static twitterUsername = "nixrajput07";
+  static twitterLink = "https://twitter.com/ArunachalamB31";
+  static twitterUsername = "ArunachalamB31";
 
   static fullName = "Arunachalam B";
   static shortName = "nixrajput";
