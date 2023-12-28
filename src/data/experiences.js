@@ -1,27 +1,35 @@
 const experiences = [
   {
-    designation: "Full Stack Developer",
-    company: "Merito",
-    duration: "Feb 2023 - PRESENT",
-    location: "Pune, India",
+    designation: "Senior Consultant",
+    company: "GoGoSoon Pvt Ltd",
+    duration: "August 2022 - PRESENT",
+    location: "Chennai, India",
     description:
-      "As a Full Stack Developer, I have a proven track record of success, having developed more than 5 web applications that seamlessly integrate backend APIs using modern tech stacks and adhering to the highest standards of clean code practices. My commitment to efficiency is reflected in my work, where I have streamlined workflows across various projects, eliminating redundant data requirements and significantly improving overall efficiency. One of my standout achievements includes achieving an impressive 80% faster website loading time. I accomplished this by optimizing images, minimizing main-thread work, and implementing robust SEO strategies to enhance user experience and website performance. In addition to my development skills, I've also demonstrated my expertise in both backend and frontend development by resolving over 100 bugs. My thorough and comprehensive code reviews showcase my dedication to delivering high-quality solutions that not only meet but exceed expectations. As a full-stack developer, I am passionate about driving innovation and excellence in every project I undertake.",
+      "As a Senior Technologist, I possess extensive experience overseeing diverse projects spanning various domains. Notable achievements include successful project management for initiatives such as Form 5500, Find a Doctor in Health Care, the Accounting feature in Home Owner Association (HOA) Messenger, Zen Print in Printing Automation, RentScore in Real Estate, and Glintify in Marketing. Furthermore, I played a pivotal role in leading a team to re-architect and redesign the entire HOA Messenger software. Additionally, I spearheaded the development of the resident portal for the HOA Messenger, showcasing my leadership and technical prowess in driving successful project outcomes. ",
   },
   {
-    designation: "Full Stack Development Intern",
-    company: "TECHOX LLP",
-    duration: "May 2021 - July 2022",
-    location: "Remote",
+    designation: "Consultant",
+    company: "GoGoSoon Pvt Ltd",
+    duration: "August 2021 - August 2022",
+    location: "Chennai, India",
     description:
-      "As a Full Stack Development Intern, I had the invaluable opportunity to make a significant impact by revamping and enhancing more than three mobile apps using Flutter, showcasing my expertise in the field of mobile development. I played a pivotal role in the development process by deploying RESTful APIs, enabling seamless integration between mobile applications and servers, thereby enhancing the overall user experience and functionality of these apps. Furthermore, I leveraged my skills to integrate Google AdMob into these applications, strategically monetizing them and effectively boosting revenue generation. My contributions as an intern reflect my dedication to staying current with modern tech stacks and best practices, ultimately delivering meaningful results to the projects I worked on.",
+      "As a Technologist, I significantly contributed to the development of the Accounting feature within HOA Messenger. I successfully orchestrated the integration of various third-party services, including Plaid, Stripe, and Hellosign, to seamlessly incorporate functionalities such as adding bank accounts, recording transactions, processing bill payments, and generating comprehensive reports. Additionally, I played an indispensable role in spearheading the Find A Doctor project, managing extensive nationwide doctor data using Elastic Search for efficient filtering. Established connections, facilitated communication, and orchestrated secure online/offline appointment bookings, ensuring HIPAA-compliant patient eligibility verification through 270/271 transactions. ",
   },
   {
-    designation: "Web Development Intern",
-    company: "Career Corner Education Pvt Ltd",
-    duration: "July 2021 - Nov 2021",
-    location: "Remote",
+    designation: "Consultant",
+    company: "ThoughtWorks",
+    duration: "October 2020 - July 2021",
+    location: "Chennai, India",
     description:
-      "During my tenure as a Web Development Intern, I had the privilege of spearheading the development of our company's website and various portals. My approach prioritized clean and reusable code, leveraging modern technology stacks to craft robust and user-friendly platforms. One of my key strengths during this internship was my ability to prioritize and efficiently problem-solve multiple tasks concurrently, often with minimal supervision. This adaptability and self-motivation allowed me to excel in a fast-paced development environment. Effective communication played a crucial role in my success as an intern. I actively engaged with senior team members and collaborated closely with colleagues to ensure precise task completion. This collaborative spirit ensured that our projects met and often exceeded the company's expectations. As a Web Development Intern, I embraced challenges, showcased my coding skills, and actively contributed to the company's digital presence and success. My experience reflects my commitment to delivering high-quality web solutions and my dedication to personal and professional growth in the field of web development.",
+      "I have played a key role within a collaborative team dedicated to operationalizing the premium digital product hypothesis, following Data Mesh principles. Leveraging my expertise in AWS Technologies such as EC2, S3, Glue, Athena, Lambda, Kinesis, SNS, SQS, CloudFormation, and Lake Formation, I have efficiently managed vast datasets from our product users. Employing Data Mesh principles, our team ensures a scalable and modular architecture while configuring data ETL pipelines on the AWS Cloud. Through adept storage, analysis, and processing, our team delivers impactful reports, enabling the client team to identify and enhance sales strategies. Additionally, I have hands-on experience with Power BI to further enrich the data visualization and insights generated. ",
+  },
+  {
+    designation: "Application Developer - Intern",
+    company: "ThoughtWorks",
+    duration: "Jan 2020 - Mar 2020",
+    location: "Bangalore & Pune, India",
+    description:
+      "During this internship, which served as a technical training program at ThoughtWorks preceding my transition to a full-fledged employee post-graduation, I acquired substantial expertise in key areas such as Object-Oriented Programming, writing clean code, employing refactoring techniques, Test-Driven Development practices, and client engagement. This immersive experience served as a pivotal bridge in my professional journey, facilitating my evolution from a graduate to a proficient employee. In conjunction with the comprehensive training curriculum, I actively contributed to the development of an e-commerce project, further enhancing my practical skills and gaining valuable experience in client engagement. ",
   },
 ];
 
