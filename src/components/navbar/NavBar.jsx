@@ -8,6 +8,7 @@ import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import useOnClickOutside from "@/hooks/useOnClickOutside";
 import navMenus from "@/data/navMenus";
 import MenuItems from "@/components/navbar/MenuItems";
+import constants from '../../constants/strings'
 
 const NavBar = ({ current }) => {
   const mobileMenuRef = useRef(null);
@@ -88,17 +89,17 @@ const NavBar = ({ current }) => {
             className="w-fit h-fit text-2xl lg:text-3xl font-bold text-white flex flex-row items-center"
           >
             <Image
-              src="/icon.png"
+              src="/images/Arunachalam_Passport_Photo.jpg"
               alt="profile"
               width={80}
               height={80}
               sizes="100%"
               priority
               placeholder="blur"
-              blurDataURL="/icon.png"
-              className="w-8 lg:w-10 h-auto mr-1"
+              blurDataURL="/Arunachalam_Passport_Photo.jpg"
+              className="w-8 lg:w-10 h-auto mr-1 rounded-full"
             />
-            Portfolio
+            {constants.fullName}&apos;s Portfolio
           </Link>
 
           <div className="w-full hidden lg:flex items-center justify-end flex-1 list-none">
