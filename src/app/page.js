@@ -10,6 +10,7 @@ import HomeSection3 from "@/components/home/Section3";
 import HomeSection4 from "@/components/home/Section4";
 import HomeSection5 from "@/components/home/Section5";
 import HomeSection6 from "@/components/home/Section6";
+import HomeSection7 from "@/components/home/Section7";
 
 const gtagId = process.env.NEXT_PUBLIC_GTAG_ID;
 
@@ -41,6 +42,7 @@ export default function Home() {
       <HomeSection4 current={current} setCurrent={setCurrent} />
       <HomeSection5 current={current} setCurrent={setCurrent} />
       <HomeSection6 current={current} setCurrent={setCurrent} />
+      <HomeSection7 current={current} setCurrent={setCurrent} />
     </PageBox>
   );
 }

@@ -25,6 +25,11 @@ const navMenus = [
     section: "projects",
   },
   {
+    title: "Achievements",
+    path: "/#achievements",
+    section: "achievements",
+  },
+  {
     title: "Contact",
     path: "/#contact",
     section: "contact",
