@@ -1,23 +1,15 @@
 "use client";
 
 import { useRef, useEffect } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import ResponsiveBox from "@/components/common/ResponsiveBox";
 import ConstraintedBox from "@/components/common/ConstraintedBox";
 import WrappedBox from "@/components/common/WrappedBox";
 import Column from "@/components/common/Column";
-import Row from "@/components/common/Row";
-import socialLinks from "@/data/socialLinks";
 import useIsInViewport from "@/hooks/useIsInViewport";
-import dynamic from "next/dynamic";
-import Image from "next/image";
-const Carousel = dynamic(
-  () => import("react-responsive-carousel").then((carousel) => carousel.Carousel),
-  {
-    ssr: false,
-  }
-);
+import achievements from "@/data/achievements";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTrophy } from "@fortawesome/free-solid-svg-icons";
+import ReadMoreText from "../common/ReadMoreText";
 
 const HomeSection6 = ({ current, setCurrent }) => {
   const contactRef = useRef(null);
@@ -50,35 +42,37 @@ const HomeSection6 = ({ current, setCurrent }) => {
         </h2>
 
         <Column classes="mt-12 w-full">
-          <WrappedBox classes="sm:grid-cols-2 w-full mx-auto gap-4">
-          <Carousel showArrows={true}>
-                <div>
-                    <Image
-                src={"/images/Daimler_CEO.jpg"}
-                alt="profile"
-                width={600}
-                height={400}
-                sizes="100%"
-                // placeholder="blur"
-                // blurDataURL={About.avatarUrl}
-                style={{
-                  objectFit: "cover",
-                  width: "100%",
-                  height: "100%",
-                  aspectRatio: "1 / 1",
-                }}
-              />
-                    <p className="legend">Daimler CEO</p>
-                </div>
-                <div>
-                    <img src="/images/Here Maps.JPG" />
-                    <p className="legend">Here Maps</p>
-                </div>
-                <div>
-                    <img src="/images/Societe Generale CEO.jpg" />
-                    <p className="legend">Societe Generale CEO</p>
-                </div>
-            </Carousel>
+          <WrappedBox classes="justify-items-center grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 mt-12">
+            {achievements.map((achievement, index) => {
+              return (
+                <Column
+                  key={`service-${index}`}
+                  classes="bg-[var(--textColor10)] p-4 px-8 rounded-[var(--borderRadius)] w-full cursor-pointer"
+                  onClick={() => {
+                    window.open(achievement.link, "_blank");
+                  }}
+                >
+                  <FontAwesomeIcon
+                    icon={faTrophy}
+                    className="text-2xl md:text-3xl text-[var(--primaryColor)]"
+                  />
+
+                  <small className="font-bold mt-4 text-[var(--textColorLight)]">
+                    {achievement.duration}
+                  </small>
+
+                  <h4 className="font-bold mt-1">{achievement.designation}</h4>
+
+                  <p className="mt-1 text-[var(--textColorLight)] font-bold">
+                    @ {achievement.company}
+                  </p>
+
+                  <ReadMoreText className="mt-4 text-[var(--textColorLight)]">
+                    {achievement.description}
+                  </ReadMoreText>
+                </Column>
+              );
+            })}
           </WrappedBox>
 
           {/* <h3 className="text-center mx-auto mt-12">
