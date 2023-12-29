@@ -8,7 +8,8 @@ const ReadMoreText = ({ children, className, visibleTextCount = 150 }) => {
 
   const [isReadMore, setIsReadMore] = useState(true);
 
-  const toggleReadMore = () => {
+  const toggleReadMore = (event) => {
+    event.stopPropagation();
     setIsReadMore(!isReadMore);
   };
 
