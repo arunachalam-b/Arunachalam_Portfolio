@@ -19,8 +19,13 @@ class Strings {
   static twitterLink = "https://twitter.com/ArunachalamB31";
   static twitterUsername = "ArunachalamB31";
 
+  static resume = "Resume";
+  static resumeLink =
+    "https://drive.google.com/file/d/1KEDhEREGlmiAe3kd8HnSf9IjFeT_L3oV/view?usp=drive_link";
+  static resumeUsername = "Resume";
+
   static fullName = "Arunachalam B";
-  static shortName = "nixrajput";
+  static shortName = "arunachalamb";
 }
 
 export default Strings;

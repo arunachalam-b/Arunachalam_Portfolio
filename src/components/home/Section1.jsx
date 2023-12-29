@@ -61,7 +61,7 @@ const HomeSection1 = ({ current, setCurrent }) => {
             <Column classes="mt-8">
               <p className="text-md font-semibold">{About.followText}</p>
               <Row classes="mt-2 gap-2">
-                {socialLinks.map((link, index) => {
+                {socialLinks?.filter((link) => link.name != Strings.resume).map((link, index) => {
                   return (
                     <Link
                       key={`social-link-${index}`}

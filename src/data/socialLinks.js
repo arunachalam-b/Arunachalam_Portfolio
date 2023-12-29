@@ -6,6 +6,8 @@ import {
   faInstagram,
   faXTwitter,
 } from "@fortawesome/free-brands-svg-icons";
+import { faFileLines } from "@fortawesome/free-solid-svg-icons";
+
 import Strings from "@/constants/strings";
 
 const socialLinks = [
@@ -38,6 +40,12 @@ const socialLinks = [
     url: Strings.twitterLink,
     icon: <FontAwesomeIcon icon={faXTwitter} />,
     text: Strings.twitterUsername,
+  },
+  {
+    name: Strings.resume,
+    url: Strings.resumeLink,
+    icon: <FontAwesomeIcon icon={faFileLines} />,
+    text: Strings.resumeUsername,
   },
 ];
 
