@@ -81,4 +81,44 @@ const projects = [
   },
 ];
 
+const openSourceContributions = [
+  {
+    title: "Time Range Picker - NPM Package",
+    description:
+      "Simple & customizable time slots picker library for React. Released in NPM Registry as react-pick-time-range package.",
+    icon: "/logo/reactjs.webp",
+    sceenshots: [],
+    url: "https://gogosoon.github.io/react-pick-time-range/",
+    githubUrl: "https://github.com/gogosoon/react-pick-time-range",
+    repoType: "public",
+    tags: [
+      "React",
+      "Pick Time Range",
+      "Schedule",
+      "NPM",
+      "Library",
+      "Bootstrap",
+    ],
+  },
+  {
+    title: "Go Laptop Setup",
+    description:
+      "Automated setup for a swift, few-click installation of essential softwares, cutting development environment setup time from hours to minutes on a Linux machine.",
+    icon: "/logo/Linux.png",
+    sceenshots: [],
+    url: "https://github.com/gogosoon/go-laptop-setup/releases/tag/0.3.0",
+    githubUrl: "https://github.com/gogosoon/go-laptop-setup",
+    repoType: "public",
+    tags: [
+      "React JS",
+      "Electron",
+      "Linux",
+      "Script",
+      "Automation",
+      "Software Installation",
+    ],
+  },
+];
+
 export default projects;
+export { openSourceContributions };

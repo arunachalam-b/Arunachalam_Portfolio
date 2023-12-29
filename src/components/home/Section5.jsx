@@ -6,7 +6,7 @@ import ResponsiveBox from "@/components/common/ResponsiveBox";
 import WrappedBox from "@/components/common/WrappedBox";
 import ProjectItem from "@/components/common/ProjectItem";
 import useIsInViewport from "@/hooks/useIsInViewport";
-import projects from "@/data/projects";
+import projects, { openSourceContributions } from "@/data/projects";
 
 const HomeSection5 = ({ current, setCurrent }) => {
   const projectsRef = useRef(null);
@@ -34,6 +34,17 @@ const HomeSection5 = ({ current, setCurrent }) => {
 
         <WrappedBox classes="justify-items-center sm:grid-cols-2 mt-12">
           {projects.map((project, index) => {
+            return <ProjectItem key={`service-${index}`} project={project} />;
+          })}
+        </WrappedBox>
+      </ConstraintedBox>
+      <ConstraintedBox classNames="p-4 py-16">
+        <h2 className="text-center mx-auto">
+          Open Source <span className="text-[var(--primaryColor)]">Contributions</span>
+        </h2>
+
+        <WrappedBox classes="justify-items-center sm:grid-cols-2 mt-12">
+          {openSourceContributions.map((project, index) => {
             return <ProjectItem key={`service-${index}`} project={project} />;
           })}
         </WrappedBox>
