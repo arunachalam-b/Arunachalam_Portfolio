@@ -31,7 +31,7 @@ const ProjectItem = ({ project }) => {
 
         <h4 className="font-bold mt-4">{project.title}</h4>
 
-        <small
+        {/* <small
           className="rounded-lg py-[0.15rem] px-[0.5rem] mt-2 font-normal capitalize text-center"
           style={{
             backgroundColor:
@@ -50,7 +50,7 @@ const ProjectItem = ({ project }) => {
           }}
         >
           {project.repoType}
-        </small>
+        </small> */}
 
         <Row classes="w-full items-center justify-center mt-4 gap-2">
           {project.githubUrl ? (
