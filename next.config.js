@@ -2,6 +2,7 @@
 const path = require("path");
 
 const nextConfig = {
+  trailingSlash: true,
   output: "export",
   reactStrictMode: true,
   swcMinify: true,
