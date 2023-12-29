@@ -89,7 +89,7 @@ const NavBar = ({ current }) => {
             className="w-fit h-fit text-2xl lg:text-3xl font-bold text-white flex flex-row items-center"
           >
             <Image
-              src="/images/Arunachalam_Passport_Photo.jpg"
+              src="/Arunachalam_Portfolio/images/Arunachalam_Passport_Photo.jpg"
               alt="profile"
               width={80}
               height={80}
